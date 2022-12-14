@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto+Slab&display=swap');
+a{
+    color: rgb(119, 91, 14);
+}
+a:hover{
+    animation: hoverlink 0.3s forwards;
+}
+@keyframes hoverlink{
+    to{background-color:rgb(255, 234, 114); color: black;}
+}
+p{
+    font-family: "Roboto Slab", serif;
+}
+h1{
+    font-family: "Playfair Display", serif;
+    font-size: 5rem;
+    opacity: 1;
+}
+h3{
+    font-family: "Roboto Slab", serif;
+    font-size: 2rem;
+    opacity: 1;
+}
+.start-img {
+    /* The image used */
+    background-image: url("imgs/policemen.jpeg");
+  
+    /* Set a specific height */
+    min-height: 100vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+
+.dark-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(60, 46, 6);
+    opacity: 0.65;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.split-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text-split{
+    border: 3px solid gray;
+    max-width: 50vw;
+    padding: 40px;
+    font-family: "Roboto Slab";
+    margin: 0;
+    font-size: 1.4rem;
+}
+.img-split{
+    background-color: gray;
+    width: 50vw;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caption-wrap{
+    max-width: 40vw;
+    text-align: center;
+}
+.caption{
+    background-color: rgb(236, 227, 207);
+    color: black;
+    font-size: 0.75rem;
+    padding: 0.1rem;
+    font-family: "Roboto Slab", serif;
+    font-style: italic;
+}
+.big-caption{
+    background-color: rgb(236, 227, 207);
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.1rem;
+    line-height: 2.4rem;
+    font-family: "Roboto Slab", serif;
+    font-style: italic;
+}
+.large-container{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.text-large{
+    font-style: italic;
+    font-size: 2.5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.highlight{
+    background-color:rgb(255, 234, 114);
+}
+.highlight-red{
+    background-color:rgb(255, 173, 155);
+}
+.img-1 {
+    /* The image used */
+    background-image: url("imgs/pandilleros.jpeg");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-2 {
+    /* The image used */
+    background-image: url("imgs/funeral.png");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-3 {
+    /* The image used */
+    background-image: url("imgs/youth.jpeg");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-4 {
+    /* The image used */
+    background-image: url("imgs/gang.jpeg");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-5 {
+    /* The image used */
+    background-image: url("imgs/landscape.jpeg");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-6 {
+    /* The image used */
+    background-image: url("imgs/map.jpeg");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+
+    color: white;
+}
+.img-7 {
+    /* The image used */
+    background-image: url("imgs/cemetery.webp");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-8 {
+    /* The image used */
+    background-image: url("imgs/pres.webp");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-9 {
+    /* The image used */
+    background-image: url("imgs/arrests1.webp");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-10 {
+    /* The image used */
+    background-image: url("imgs/arrests3.jpeg");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-11 {
+    /* The image used */
+    background-image: url("imgs/arrests2.webp");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-12 {
+    /* The image used */
+    background-image: url("imgs/prison.webp");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
+.img-13 {
+    /* The image used */
+    background-image: url("imgs/kneel.jpeg");
+  
+    /* Set a specific height */
+    min-height: 50vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+}
